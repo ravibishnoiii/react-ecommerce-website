@@ -33,7 +33,7 @@ const Home = () => {
 
     }
   
-  }, [category, products]);
+  }, [category, filteredProducts, products]);
 
   return products ? (
     <>
